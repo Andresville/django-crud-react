@@ -1,0 +1,41 @@
+# Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.sqlite3
+/media/
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# Django secret key file
+.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+build/
+dist/
+*.lock
+
+# React
+/public/static/
+*.cache
+.DS_Store
+.eslintcache
+
+# Git
+.idea/
+.vscode/
+*.swp
+
+# Exclude local settings
+settings_local.py
